@@ -105,3 +105,4 @@ while 1:
 	except subprocess.CalledProcellssError as e:
 		print e.output
 	num = num + 1
+	sys.stdout.flush()
